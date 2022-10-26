@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -59,6 +63,8 @@ li > a:hover {
     display: flex;
     flex-direction: column;
     width: 360px;
+    padding: 25px;
+
 }
 
 .awesome > a {
@@ -66,8 +72,16 @@ li > a:hover {
 }
 
 .placeholder {
-    border: 10px solid red;
-    
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+}
+
+.placeholder > a {
+    color: white;
 }
 
 
