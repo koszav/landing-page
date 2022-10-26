@@ -42,3 +42,45 @@ li > a:hover {
 .logo > a:hover {
     color: gold;
 }
+
+.container1 {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.container1 > a {
+    font-size: 18px;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.awesome > a {
+    color:white;
+}
+
+.placeholder {
+    border: 10px solid red;
+    
+}
+
+
+button {
+    width: 95px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 28px;
+}
+
+.big-one {
+    font-size: 48px;
+    font-weight: bolder
+
+}
