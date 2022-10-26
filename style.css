@@ -62,8 +62,9 @@ li > a:hover {
 .awesome {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 430px;
     padding: 25px;
+    gap: 10px;
 
 }
 
@@ -73,11 +74,12 @@ li > a:hover {
 
 .placeholder {
     border: 2px solid whitesmoke;
+    background-color: darkgrey;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: 200px;
 }
 
 .placeholder > a {
