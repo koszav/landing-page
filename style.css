@@ -109,7 +109,8 @@ button:active {
 
 .big-one {
     font-size: 48px;
-    font-weight: bolder
+    font-weight: bolder;
+    line-height: .920;
 
 }
 
@@ -199,4 +200,45 @@ button:active {
         padding-top: 0px;
         margin-top: 25px
     }
+}
+
+
+
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    background-color:#1F2937;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 20px;
+    width: 650px;
+    gap: 9rem;
+}
+
+.container4 > .text {
+    flex-direction: column;
+    color: white;
+}
+
+
+.last-container {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+footer {
+    background-color:#1F2937;
+    text-align: center;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
