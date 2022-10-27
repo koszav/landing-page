@@ -98,6 +98,15 @@ button {
     border-style:none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+
 .big-one {
     font-size: 48px;
     font-weight: bolder
