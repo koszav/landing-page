@@ -161,7 +161,7 @@ button:active {
     align-items: center;
     justify-content: center;
     height:300px;
-    background-color: #E5E7EB;
+    background-color: #E5E7EB;    
 }
 
 .quote {
@@ -208,7 +208,6 @@ button:active {
 .container4 {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
     background-color:#1F2937;
     align-items: center;
     justify-content: center;
@@ -226,7 +225,7 @@ button:active {
 
 .last-container {
     display: flex;
-    height: 150px;
+    height: 230px;
     align-items: center;
     justify-content: center;
     background-color: white;
