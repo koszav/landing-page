@@ -149,10 +149,11 @@ button {
     align-items: center;
     justify-content: center;
     height:300px;
+    background-color: #E5E7EB;
 }
 
 .quote {
-    display: flex;
+    display: inline-flex;
     font-size: 25px;
     width: 350px
 }
@@ -160,6 +161,7 @@ button {
 .by-thor {
     font-size: 10px;
     font-weight: bold;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-end;
+    width: 350px;
 }
