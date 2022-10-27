@@ -170,7 +170,7 @@ button:active {
 }
 
 .by-thor {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     display: inline-flex;
     justify-content: flex-end;
@@ -192,7 +192,7 @@ button:active {
     }
 
     .boxes {
-        scale: 80%;
+        scale: 75%;
     }
 
     .container2 > a {
