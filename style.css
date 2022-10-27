@@ -167,3 +167,27 @@ button {
     justify-content: flex-end;
     width: 350px;
 }
+
+
+
+
+
+/* Experimental responsive code */
+/* It is NOT a good idea to put band-aids on broken code. */
+/* I am just testing how I could fix this mess amd surprisingly it works  */
+
+
+@media only screen and (max-width: 1024px) {
+    .placeholder {
+        width: 40%;
+    }
+
+    .boxes {
+        scale: 80%;
+    }
+
+    .container2 > a {
+        padding-top: 0px;
+        margin-top: 25px
+    }
+}
